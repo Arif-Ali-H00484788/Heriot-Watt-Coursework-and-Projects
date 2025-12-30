@@ -1,0 +1,7 @@
+Analyzing the top 100 songs of 2018 from a single listener provides a fascinating glimpse into their musical preferences. The data suggests a diverse taste in music, with a balance of upbeat and slower tracks.
+However, this snapshot may not fully capture the listener's audio aura.
+To better understand their musical identity, I would propose a more comprehensive approach:
+    1) Collect data over a longer period to account for changes in taste and preferences
+    2) Incorporate additional data points, such as ratings and play counts, to gain a deeper understanding of their musical connections
+    3) Consider supplementary data sources, like social media activity, to provide a more holistic view
+By adopting a more nuanced approach, we can develop a richer understanding of the listener's audio aura and uncover new insights into their musical preferences.

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.answer-button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.answer-button:hover {
+    background-color: #aaa;
+}
+
+#free-response {
+    width: 50%;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#submit-button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+#feedback1,
+#feedback2 {
+    font-size: 18px;
+    margin: 10px;
+}
