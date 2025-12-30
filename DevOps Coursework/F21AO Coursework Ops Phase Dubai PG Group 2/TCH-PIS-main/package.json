@@ -1,0 +1,29 @@
+{
+  "name": "patient-information-system",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "services/*"
+  ],
+  "scripts": {
+    "start": "npm run start --workspace=auth-service",
+    "sonar": "sonar-scanner",
+    "start-all": "concurrently \"node services/auth-service/src/server.js\" \"node services/patient-registration/src/server.js\" \"node services/patient-treatment/src/server.js\"",
+    "test": "cd services/auth-service && npm test && cd ../patient-registration && npm test && cd ../patient-treatment && npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "nodemon": "^3.1.9",
+    "sinon": "^19.0.2"
+  },
+  "description": "Monorepo for Patient Information System",
+  "dependencies": {
+    "concurrently": "^9.1.2",
+    "express": "^4.21.2",
+    "postman-to-openapi": "^1.7.3"
+  }
+}
